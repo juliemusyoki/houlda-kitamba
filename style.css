@@ -572,7 +572,70 @@ footer .copyright-symbol {
     }
 }
 
-/* Add more media queries as needed for other screen sizes */
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .home-content {
+        padding: 10px;
+    }
+    .home-content h3 {
+        font-size: 20px;
+    }
+    .home-content h1 {
+        font-size: 20px;
+    }
+    .home-content p {
+        font-size: 12px;
+    }
+    .about {
+        grid-template-columns: 1fr;
+    }
+    .about-image {
+        display: none;
+    }
+    .about-text h2 {
+        font-size: 24px;
+    }
+    .about-text h4 {
+        font-size: 18px;
+    }
+    .about-text h1 {
+        font-size: 22px;
+    }
+    .about-text p {
+        font-size: 14px;
+    }
+    .services-list div {
+        font-size: 16px;
+    }
+    .services-list div h2 {
+        font-size: 22px;
+    }
+    .contact .heading {
+        font-size: 24px;
+    }
+    .contact .contact-text {
+        font-size: 16px;
+    }
+    .contact .form-group label {
+        font-size: 16px;
+    }
+    .contact .form-group input {
+        font-size: 14px;
+    }
+    .contact .submit-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .contact .social-icons {
+        margin-top: 10px;
+    }
+    .contact .social-icon {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+
 
 
 
